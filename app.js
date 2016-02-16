@@ -1,7 +1,8 @@
 'use  strict';
 function pizzasAndDeliveriesAt(time) {
-  var pizzas = 0
-  var deliveries = 0
+  var pizzas = 0;
+  var deliveries = 0;
+  var drivers = 0;
 
   // logic
   // 1. is 8 always gonna be 0? because the table says between 8 am & 11 am. it doesn't say it's gonna be equal to 8 am.
@@ -35,8 +36,42 @@ function pizzasAndDeliveriesAt(time) {
     pizzas = randomBetween(5,20);
     deliveries = randomBetween(6,11);
   }
+    var pizzaDrivers = {time: '8:00'};;
+    pizzaDrivers.pizzas = randomBetween()
+    pizzaDrivers.deliveries = randomBetween()
 
-  return [pizzas, deliveries]
+    //do it for each 1-hr time slot.
+
+    for (var i = 0; i <6; i++) {
+      //var driversNeeded = driversRecommended(pizzasSold, deliveriesMade);
+    //  var pizzasSold = (driversRecommended[0]);
+      //var deliveriesMade = (driversRecommended[1]);
+    }
+
+
+
+
+    function driversRecommended(pizza, deliveries) {
+      var drivers = []
+
+      if (deliveries <= 3) {
+
+
+      }
+
+      else if(delivers == 0) {
+
+
+      }
+
+
+      else if (deliveries >= 4) {
+
+
+      }
+    }
+
+    return [pizzas, deliveries]
 }
 
 function randomBetween(min, max) {
@@ -68,6 +103,26 @@ function itemsForALocation() {
     items.push(i + ':00 ' + pAndD[0] + ' pizzas ' + pAndD[1] + ' deliveries')
   }
   return items
+}
+
+function driversRecommended() {
+  var drivers = []
+
+  if (deliveries <= 3) {
+
+
+  }
+
+  else if(delivers == 0) {
+
+
+  }
+
+
+  else if (deliveries >= 4) {
+
+
+  }
 }
 
 // main code
