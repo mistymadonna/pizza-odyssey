@@ -70,7 +70,7 @@ function itemsForALocation() {
   return items
 }
 
-// main code, copy and paste these for all the locations. do this.
+// main code
 var ballard = document.getElementById('ballard');
 var ballardItems = itemsForALocation();
 listify(ballard, ballardItems)
@@ -80,17 +80,17 @@ var firstHillItems = itemsForALocation();
 listify(firstHill, firstHillItems)
 
 var theInternationalDistrict = document.getElementById('theInternationalDistrict');
-var theInternationalDistrict = itemsForALocation();
+var theInternationalDistrictItems = itemsForALocation();
 listify(theInternationalDistrict, theInternationalDistrictItems)
 
 var southlakeUnion = document.getElementById('southlakeUnion');
-var southlakeUnion = itemsForALocation();
+var southlakeUnionItems = itemsForALocation();
 listify(southlakeUnion, southlakeUnionItems)
 
 var georgetown = document.getElementById('georgetown');
-var georgetown = itemsForALocation();
+var georgetownItems = itemsForALocation();
 listify(georgetown, georgetownItems)
 
 var ravenna = document.getElementById('ravenna');
-var ravenna = itemsForALocation();
+var ravennaItems = itemsForALocation();
 listify(ravenna, ravennaItems)
