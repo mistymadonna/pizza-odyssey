@@ -1,3 +1,4 @@
+'use  strict';
 function pizzasAndDeliveriesAt(time) {
   var pizzas = 0
   var deliveries = 0
@@ -77,3 +78,19 @@ listify(ballard, ballardItems)
 var firstHill = document.getElementById('firstHill');
 var firstHillItems = itemsForALocation();
 listify(firstHill, firstHillItems)
+
+var theInternationalDistrict = document.getElementById('theInternationalDistrict');
+var theInternationalDistrict = itemsForALocation();
+listify(theInternationalDistrict, theInternationalDistrictItems)
+
+var southlakeUnion = document.getElementById('southlakeUnion');
+var southlakeUnion = itemsForALocation();
+listify(southlakeUnion, southlakeUnionItems)
+
+var georgetown = document.getElementById('georgetown');
+var georgetown = itemsForALocation();
+listify(georgetown, georgetownItems)
+
+var ravenna = document.getElementById('ravenna');
+var ravenna = itemsForALocation();
+listify(ravenna, ravennaItems)
